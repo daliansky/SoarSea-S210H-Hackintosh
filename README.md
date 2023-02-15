@@ -1,8 +1,8 @@
 # SoarSea-S210H-Hackintosh
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.6-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0.1-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.6%2021G115-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.7%2020G817-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.2-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
 
-[![S500](../morefine-S500-Hackintosh/ScreenShots/S5003.png)](https://hackintosher.taobao.com)
+[![S210H](./ScreenShots/S210H.png)](https://item.taobao.com/item.htm?id=693991506304)
 
 ## 电脑配置
 
@@ -25,6 +25,10 @@
 
 ## 更新日志
 
+- 2-15-2023
+  - Release `v1.1.0`
+  - 更新 `OpenCore` `v0.8.9`
+  
 - 11-25-2022
   - Release `v1.0.0`
   - 更新 `OpenCore` `v0.8.6`
