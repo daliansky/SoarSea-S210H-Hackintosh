@@ -1,6 +1,6 @@
 # SoarSea-S210H-Hackintosh
 
-![release version](https://img.shields.io/github/v/release/daliansky/SoarSea-S210H-Hackintosh?style=for-the-badge)  [![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS version](https://img.shields.io/badge/Ventura-13.2-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
+![release version](https://img.shields.io/github/v/release/daliansky/SoarSea-S210H-Hackintosh?style=for-the-badge)  [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS version](https://img.shields.io/badge/Ventura-13.2.1-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
 
 [![S210H](./ScreenShots/S210H.png)](https://item.taobao.com/item.htm?id=693991506304)
 
@@ -25,10 +25,13 @@
 
 ## 更新日志
 
+- 3-15-2023
+  - Release `v1.2.0`
+  - 更新 `OpenCore` `v0.9.0`
+  
 - 2-15-2023
   - Release `v1.1.0`
   - 更新 `OpenCore` `v0.8.9`
-  
 - 11-25-2022
   - Release `v1.0.0`
   - 更新 `OpenCore` `v0.8.6`
@@ -38,5 +41,24 @@
 
 
 
+![OC](./ScreenShots/OC.png)
 
+![S210H_About](./ScreenShots/S210H_About.png)
 
+![0Hackintool](./ScreenShots/0Hackintool.png)
+
+![1Hackintool_Misc](./ScreenShots/1Hackintool_Misc.png)
+
+![2Hackintool_Bootloader](./ScreenShots/2Hackintool_Bootloader.png)
+
+![3Hackintool_NVRAM](./ScreenShots/3Hackintool_NVRAM.png)
+
+![4Hackintool_Kexts](./ScreenShots/4Hackintool_Kexts.png)
+
+![5Hackintool_Displays](./ScreenShots/5Hackintool_Displays.png)
+
+![6Hackintool_Audio](./ScreenShots/6Hackintool_Audio.png)
+
+![7Hackintool_USBPorts](./ScreenShots/7Hackintool_USBPorts.png)
+
+![8Hackintool_PM](./ScreenShots/8Hackintool_PM.png)
