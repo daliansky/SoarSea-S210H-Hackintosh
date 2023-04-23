@@ -2,7 +2,7 @@
 
 ![release version](https://img.shields.io/github/v/release/daliansky/SoarSea-S210H-Hackintosh?style=for-the-badge)  [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS version](https://img.shields.io/badge/Ventura-13.2.1-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
 
-[![S210H](./ScreenShots/S210H.png)](https://item.taobao.com/item.htm?id=693991506304)
+[![S210H](./ScreenShots/S210H_Dock)](https://item.taobao.com/item.htm?id=693991506304)
 
 ## 电脑配置
 
