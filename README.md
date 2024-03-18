@@ -1,8 +1,8 @@
 # SoarSea-S210H-Hackintosh
 
-![release version](https://img.shields.io/github/v/release/daliansky/SoarSea-S210H-Hackintosh?style=for-the-badge)  [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.1-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS version](https://img.shields.io/badge/Ventura-13.3.1-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.5%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.4%2020G1116-informational.svg)](https://www.apple.com/macos)
+![release version](https://img.shields.io/github/v/release/daliansky/SoarSea-S210H-Hackintosh?style=for-the-badge)  [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS version](https://img.shields.io/badge/Sonoma-14.4-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-13.6.5-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.7.4-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.10-informational.svg)](https://www.apple.com/macos)
 
-[![S210H](./ScreenShots/S210H_Dock.png)](https://item.taobao.com/item.htm?id=693991506304)
+[![S210H](./ScreenShots/S210H_taobao.png)](https://item.taobao.com/item.htm?id=693991506304)
 
 ## 电脑配置
 
@@ -25,6 +25,9 @@
 
 ## 更新日志
 
+- 3-18-2024
+  - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
+  - `Sonoma` 如果想更新到 `14.4` 请务必先更新 `EFI` ，然后再安装 [OCLP](https://pan.daliansky.net/APPS/OCLP/OCLP.md)，重启后，再升级到 `14.4` 否则会出现 `WIFI` 无法启用的问题
 - 11-1-2023
   - Release `v2.0.0`
   - 更新 `OpenCore` `v0.9.5`
@@ -46,7 +49,7 @@
 
 ![OC](./ScreenShots/OC.png)
 
-![S210H_About](./ScreenShots/S210H_About.png)
+![S210H_About](./ScreenShots/S210H_About_Sonoma.png)
 
 ![0Hackintool](./ScreenShots/0Hackintool.png)
 
