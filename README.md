@@ -1,6 +1,6 @@
 # SoarSea-S210H-Hackintosh
 
-![release version](https://img.shields.io/github/v/release/daliansky/SoarSea-S210H-Hackintosh?style=for-the-badge)  [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS version](https://img.shields.io/badge/Sonoma-14.4-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-13.6.5-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.7.4-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.10-informational.svg)](https://www.apple.com/macos)
+![release version](https://img.shields.io/github/v/release/daliansky/SoarSea-S210H-Hackintosh?style=for-the-badge)  [![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.2-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS version](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
 
 [![S210H](./ScreenShots/S210H_taobao.png)](https://item.taobao.com/item.htm?id=693991506304)
 
@@ -9,7 +9,7 @@
 |     规格      |                           详细信息                           |
 | :-----------: | :----------------------------------------------------------: |
 |   电脑型号    |                        SoarSea S210H                         |
-|   操作系统    | macOS `Sonoma` / `Ventura` /  `Monterey` / `Big Sur` / `Catalina` / `Mojave` |
+|   操作系统    | macOS `Sequoia` / `Sonoma` / `Ventura` /  `Monterey` / `Big Sur` / `Catalina` / `Mojave` |
 |    处理器     |               英特尔 酷睿 i9-10980HK / i9-10885H /i9-9980HK 8核16线程<br />i7-10870H 8核16线程<br />i7-10750H 6核12线程               |
 |     内存      |                      64 GB DDR4 3200MHz                      |
 |    硬盘1/2    | WD SN570 1TB/HS-SSD-C2000 2TB<br />支持双NVMe或NVMe+SATA SSD或双SATA SSD<br />最高支持 4TB+4TB双NVMe固态组合 |
@@ -25,6 +25,10 @@
 
 ## 更新日志
 
+- 10-11-2024
+  - 更新 `OpenCore` `v1.0.2` 
+  - 更新 `IOSkywalkFamily.kext` 到 `v1.2.0`
+  - 支持 `Sequoia` (博通无线网卡)
 - 3-18-2024
   - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
   - `Sonoma` 如果想更新到 `14.4` 请务必先更新 `EFI` ，然后再安装 [OCLP](https://pan.daliansky.net/APPS/OCLP/OCLP.md)，重启后，再升级到 `14.4` 否则会出现 `WIFI` 无法启用的问题
