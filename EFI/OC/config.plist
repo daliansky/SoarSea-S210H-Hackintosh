@@ -696,7 +696,7 @@
                 <key>MaxKernel</key>
                 <string></string>
                 <key>MinKernel</key>
-                <string></string>
+                <string>20.0.0</string>
             </dict>
             <key>Force</key>
             <array/>
@@ -1114,13 +1114,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C07314104J9KXPG1M</string>
+                <string>C07147404GUKXPG8C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>8mS+lyPd</data>
+                <data>2Oy64IyC</data>
                 <key>SpoofVendor</key>
                 <false/>
                 <key>SystemMemoryStatus</key>
@@ -1128,9 +1128,9 @@
                 <key>SystemProductName</key>
                 <string>Macmini8,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C07KJ6YNJYVX</string>
+                <string>C07GQ0XEJYVX</string>
                 <key>SystemUUID</key>
-                <string>B3991146-234E-447B-BBA7-919B2C4BC91B</string>
+                <string>BCA350F8-A956-4317-BC41-BD97E960A985</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1277,42 +1277,6 @@
                     <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>btrfs_x64.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>Ext4Dxe.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>OpenLinuxBoot.efi</string>
                 </dict>
             </array>
             <key>Input</key>
