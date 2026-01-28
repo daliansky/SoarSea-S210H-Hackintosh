@@ -25,11 +25,14 @@
 
 ## 更新日志
 
+- 1-28-2026
+  - 更新 `OpenCore` `v1.0.6`
+  - 支持 `Tahoe` (博通无线网卡) 
+  
 - 11-5-2025
   - 更新 `OpenCore` `v1.0.6`
   - 支持 `Tahoe` (Intel 无线网卡) 
     - `Tahoe` 和 `Sequoia` 下使用`itlmw` + `HeliPort`的方法驱动
-  
 - 10-11-2024
   - 更新 `OpenCore` `v1.0.2` 
   - 更新 `IOSkywalkFamily.kext` 到 `v1.2.0`
