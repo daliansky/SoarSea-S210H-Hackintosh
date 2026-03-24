@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>#Build Date</key>
-	<string>1-28-2025</string>
+	<string>3-24-2026</string>
 	<key>#EFI Update Repository</key>
 	<string>https://github.com/daliansky/SoarSea-S210H-Hackintosh</string>
 	<key>#Maker by</key>
 	<string>SoarSea双影王族mini小主机专用EFI</string>
 	<key>#OpenCore Version</key>
-	<string>v1.0.6 Release</string>
+	<string>v1.0.8 MOD Release</string>
 	<key>#Posted on</key>
 	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
 	<key>ACPI</key>
@@ -126,6 +126,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>EnableForAll</key>
+			<false/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -161,6 +163,8 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
+			<false/>
+			<key>EnableForAll</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
@@ -743,7 +747,7 @@
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ProvideCurrentCpuInfo</key>
-			<false/>
+			<true/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
@@ -795,6 +799,8 @@
 			<true/>
 			<key>ShowPicker</key>
 			<true/>
+			<key>SkipCustomEntryCheck</key>
+			<false/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -904,8 +910,12 @@
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
+				<key>revcpu</key>
+				<integer>1</integer>
+				<key>revcpuname</key>
+				<string>Intel Xeon E-2286M</string>
 				<key>revpatch</key>
-				<string>sbvmm</string>
+				<string>sbvmm,cpuname</string>
 				<key>rtc-blacklist</key>
 				<data>
 				</data>
@@ -1001,7 +1011,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>ROM</key>
 			<data>
 			x4LZADNh
