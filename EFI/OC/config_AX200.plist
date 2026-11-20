@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>#Build Date</key>
-	<string>3-24-2026</string>
+	<string>11-20-2026</string>
 	<key>#EFI Update Repository</key>
 	<string>https://github.com/daliansky/SoarSea-S210H-Hackintosh</string>
 	<key>#Maker by</key>
 	<string>SoarSea双影王族mini小主机专用EFI</string>
 	<key>#OpenCore Version</key>
-	<string>v1.0.8 MOD Release</string>
+	<string>v1.0.9 MOD Release</string>
 	<key>#Posted on</key>
 	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
 	<key>ACPI</key>
@@ -316,6 +316,21 @@
 				AQAAAA==
 				</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>built-in</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Cannon Point-LP High Definition Audio Controller</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -353,6 +368,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>AppleALC.kext</string>
+				<key>Comment</key>
+				<string>V1.9.6</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleALC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
