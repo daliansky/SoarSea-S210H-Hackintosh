@@ -978,7 +978,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>ipc_control_port_options=0 -no_compat_check debug=0x100 keepsyms=1 -igfxblt</string>
+                    <string>ipc_control_port_options=0 -no_compat_check debug=0x100 keepsyms=1 -igfxblt -lilubetaall alcid=11</string>
                     <key>csr-active-config</key>
                     <data>AwoAAA==</data>
                     <key>prev-lang:kbd</key>
